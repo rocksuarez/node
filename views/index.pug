@@ -1,6 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  p soy la verch, haciendo remote push desde la compu a digital ocean
+  div.grid-x.grid-padding-x.login-box
+    div.large-12.medium-12.small-12.text-center.cell
+      h1 LOGIN
+    div.large-12.medium-12.small-12.text-center.cell
+      input(type='text').rounded
+      input(type='password').rounded
+      button.button.rounded(type='submit') ENTRAR
